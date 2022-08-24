@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+  "name": "CPF/CNPJ Generator",
+  "version": "1.0",
+  "description": "Generate CPF/CNPJ with/without mask.",
+  "background": {
+    "scripts": ["script.js"]
+  },
+
+  "permissions": ["clipboardWrite"],
+  "browser_action": {
+    "default_title": "CPF/CNPJ Generator",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "creditcard-flat.png"
+  }
+}
